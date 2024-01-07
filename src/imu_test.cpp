@@ -13,7 +13,7 @@ void setup() {
   Wire.beginTransmission(MPU);
   
   Wire.write(0x6B);
-  Wire.write(0x00); //reset device
+  Wire.write(0x00); //reset device3333
   Wire.endTransmission(true);
 
   delay(100);
